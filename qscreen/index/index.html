@@ -4,67 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Lobster&family=Montserrat:wght@200&family=Noto+Sans:wght@200&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/styles.css">
-    <title>QScreen</title>
+    <title>New Screen</title>
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-logo" src="/assets/Vector.svg" alt="">
-        <h1 class="top-title">QGasosaCG</h1>
-    </div>
-    <div class="buttons-container">
-        <div class="users-container">
-            <h2 class="user">Usuários Admin</h2>
+    <div class="station-container">
+        <div class="name-container">
+            <h2>Nome do Posto: </h2>
+            <input type="text" placeholder="Gasolina">
         </div>
-        <div class="postos-container">
-            <h2 class="postos">Postos</h2>
+        <div class="location-container">
+            <h2>Endereço: </h2>
+            <input type="text" placeholder="Avenida Rio Branco, 1502">
         </div>
-    </div>
-    <div class="mid-container">
-        <div class="card">
-            <div class="top-info">
-                <h4>2 notas fiscais</h4>
+        <div class="fuel-container">
+            <div class="fuel-info-container">
+                <h2>Nome do Combustível: </h2>
+                <p>Gasolina</p>
+                <p>Etanol</p>
+                <p>Diesel</p>
             </div>
-            <h2>Posto São Luiz</h2>
-            <p>Gasolina: R$ 7,05</p>
-            <p>Etanol: R$ 7,05</p>
-            <p>Díesel: R$ 7,05</p>
-            <div class="location-container">
-                <img src="/assets/location-svgrepo-com.svg" alt="">
-                <h5>Avenida Rio Branco, 1502 - Bela Vista</h2>
+            <div class="price-fuel-container">
+                <h2>Preço do Litro: </h2>
+                <p>R$ 7,09</p>
+                <p>R$ 7,09</p>
+                <p>R$ 7,09</p>
             </div>
         </div>
-        <div class="other-card">
-            <h2>Posto São Luiz</h2>
-            <p>Gasolina: R$ 7,05</p>
-            <p>Etanol: R$ 7,05</p>
-            <p>Díesel: R$ 7,05</p>
-            <div class="location-container">
-                <img src="/assets/location-svgrepo-com.svg" alt="">
-                <h5>Avenida Rio Branco, 1502 - Bela Vista</h2>
-            </div>
+        <div class="customize-fuel">
+            <img src="/assets/plus2-icon.svg" alt="">
+            <p>Adicionar combustível comercializado</p>
         </div>
-        <div class="other-card">
-            <h2>Posto São Luiz</h2>
-            <p>Gasolina: R$ 7,05</p>
-            <p>Etanol: R$ 7,05</p>
-            <p>Díesel: R$ 7,05</p>
-            <div class="location-container">
-                <img src="/assets/location-svgrepo-com.svg" alt="">
-                <h5>Avenida Rio Branco, 1502 - Bela Vista</h2>
+        <div class="buttons">
+            <div class="cancel-button">
+                <p>Cancelar</p>
+            </div>
+            <div class="save-button">
+                <p>Salvar</p>
             </div>
         </div>
     </div>
-    <div class="final-container">
+    <div class="logo-container">
+        <h1>Notas Fiscais</h1>
+    </div>
+    <div class="main-container">
         <div class="note-container">
-            <img class="fiscal-icon" src="/assets/fiscal-icon.svg" alt="">
+            <div class="icon-container">
+                <img src="/assets/note-icon.svg" alt="">
+            </div>
+            <div class="data-container">
+                <p>25/06/22</p>
+                <div class="icons-container">
+                    <img class="i1" src="/assets/seticon.svg" alt="">
+                    <img src="/assets/clear-icon.svg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="add-fuel-station-container">
-            <img class="plus-icon" src="/assets/plus-icon.svg" alt="">
-            <h2>Adicionar Posto</h2>
+        <div class="note-container">
+            <div class="icon-container">
+                <img src="/assets/note-icon.svg" alt="">
+            </div>
+            <div class="data-container">
+                <p>26/06/22</p>
+                <div class="icons-container">
+                    <img class="i1" src="/assets/seticon.svg" alt="">
+                    <img src="/assets/clear-icon.svg" alt="">
+                </div>
+            </div>
         </div>
     </div>
 </body>
