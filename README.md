@@ -1,2 +1,2 @@
 # screen-fuel-station
- Uma das telas para o projeto de Engenharia de Software, UFCG.
+Tela de postos e notas fiscais, destinada ao projeto de Engenharia de Software, UFCG.
